@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: #fafafa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+
+.fw-normal {
+    font-weight: normal;
+}
